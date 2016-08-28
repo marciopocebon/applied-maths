@@ -90,11 +90,3 @@ Statistics.getCorrelation = function(numbersX, numbersY){
 
 	return Math.round(correlation);
 };
-
-var x = [0,1,2,3];
-// var y = [1,3,5,7];
-var y = [1,2,2,1];
-
-var correlation = Statistics.getCorrelation( x, y );
-console.log( 'correlation => ', correlation );
-
